@@ -1,0 +1,37 @@
+.mainContent {
+    overflow: hidden;
+    min-width: 900px;
+}
+
+.mainContentContainer {
+    display: flex;
+    align-self: center;
+    margin: 0 15%;
+    margin-top: 150px;
+}
+
+.mainContentTitle {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+#mainContentTitleName {
+    text-align: center;
+    font-size: 60px;
+}
+
+.mainContentAboutMe {
+    width: 70%;
+    height: 100%;
+}
+
+#mainContentAboutMeTitle {
+    font-size: 40px;
+}
+
+#mainContentAboutMeDescription {
+    font-size: 16px;
+}
