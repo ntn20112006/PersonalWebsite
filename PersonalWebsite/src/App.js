@@ -1,15 +1,8 @@
-import './App.css';
-import NavBar from './NavBar';
-import AboutMeContent from './AboutMeContent';
-import ContactBar from './ContactBar';
+import AboutMePage from './AboutMePage';
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <AboutMeContent/>
-      <ContactBar/>
-    </div>
+    <AboutMePage/>
   );
 }
 
